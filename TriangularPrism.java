@@ -13,6 +13,7 @@ public class TriangularPrism implements Shape3D
 		this.side2 = side2;
 		this.side3 = side3;
 		this.height = height;
+		this.c = (side1 + side2 + side3) / 2;
 	}
 	
 	public double getBaseArea()
